@@ -73,28 +73,40 @@ p {
     font-size: 40px;
 }
 
-.header__logo {
+.header-logo {
     height: 50px;
     width: auto;
     padding-right: 10px;
 }
 
-.header__nav {
+.header__menu {
     margin-top: 20px;
 }
 
-.nav__list {
+.menu__list {
     list-style-type: none;
     padding: 0;
 }
 
-.nav__item {
+.menu__item {
     font-size: 26px;
+    background-color: #007f6a;
+    padding: 5px;
+    margin: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.19);
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 5px;
 }
 
-.nav__link {
+.menu__item:hover {
+    background-color: lightgray;
+}
+
+.menu__item.active{
+    background-color: lightgray;
+}
+
+.menu__link {
     color: #ffffff;
     text-decoration: none;
 }
